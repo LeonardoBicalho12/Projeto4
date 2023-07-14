@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+#meu_menu{/* abrindo id do menu */
+text-align: right;
+/* padding margem interna */
+padding-right: 60px;
+/* colocando borda inferior */
+border-bottom: solid;
+/* tamanho da fonte do menu */
+font-size: 25px;
+/* estilo da fonte do menu */
+font-family: 'Oswald', sans-serif;
+}/* fechando id do menu */
+/* chamando o id mãe */
+#meu_menu a{
+    text-decoration: none;
+    color: #000000;
+}
+/* colocando efeito de sobre no menu */
+#meu_menu a:hover{
+    color:#f7860e;
+    background-color: #090202;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+/* trabalhando com classe titulo */
+.titulo{
+    text-align: center;
+    background-color: #0fa5dc;
+    border-style: double;
+    border-color: #f7860e;
+    border-radius: 30px; /* arredonda a borda */
+}
+/* trabalhando com o div da imagem */
+#fundo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 20%;
+}
+/* trabalhando com a div princípal */
+.master{
+    display: flex;
+}
+.col_esquerda{
+    margin-right: 30px;
+    text-align: justify;
+}
+.titulo_col{
+    text-align: center;
+    background-color: #f7860e
+}
+.titulo_col2{
+    text-align: center;
+    background-color: #f7860e;
+}
